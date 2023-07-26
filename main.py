@@ -9,7 +9,7 @@ def get_date():
 # Step 1: Create the Tkinter window and configure its properties
 root = tk.Tk()
 root.title("Calendar Date Picker")
-root.geometry("300x300")
+root.geometry("400x300")
 
 # Step 2: Create the Calendar widget
 cal = Calendar(root, selectmode="day", date_pattern="yyyy-mm-dd")
